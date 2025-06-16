@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Model file
+model/*.h5
+
+# Logs
+*.log
+
+# MacOS/Windows
+.DS_Store
+Thumbs.db
