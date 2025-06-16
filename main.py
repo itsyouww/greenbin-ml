@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
 
-model = load_model('deteksi_klasifikasi/model/model_sampah.h5')
+model = load_model('model/model_sampah.h5')
 class_names = ['cardboard', 'metal', 'paper', 'plastic', 'trash']
 IMG_SIZE = (150, 150)
 

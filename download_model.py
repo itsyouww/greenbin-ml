@@ -2,7 +2,7 @@ import gdown
 import os
 
 # Folder & nama file tujuan
-MODEL_PATH = "deteksi_klasifikasi/model/model_sampah.h5"
+MODEL_PATH = "model/model_sampah.h5"
 DRIVE_ID = "13lwGtCrJpWZmwXQNHAbc9qu6JPxIAodd"  # ← Ganti dengan ID kamu
 
 # Buat folder jika belum ada

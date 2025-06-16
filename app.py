@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load model sekali saat startup
-model = load_model('deteksi_klasifikasi/model/model_sampah.h5')
+model = load_model('model/model_sampah.h5')
 class_names = ['cardboard', 'metal', 'paper', 'plastic', 'trash']  # sesuaikan dengan labelmu
 
 def preprocess_image(file):
